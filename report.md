@@ -59,7 +59,9 @@ The value based are always guessing - like the last project DQN compared a guess
 If you would dig more into the Actor-Critic methods, you might say that DDPG is not really one.
 
 At DDPG what is the role of the two types of networks?
-Actor: Optimal policy, deterministicly - outputs the best believed action for any given state 
+
+Actor: Optimal policy, deterministicly - outputs the best believed action for any given state
+
 Critic: Learns evaluates the optimal action - value function  
 
 In the DQN we had a local and the target network. And after a bunch of time steps we just copied the parameters from the local to the target network. 
