@@ -63,6 +63,40 @@ I have used these version of the reacher.app
 
 Place the file in this GitHub repository and unzip (or decompress) the file. Then rename the folder to `Reacher`. (Now `Reacher/Reacher.exe` should exist.)
 
+### Dependencies
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.6.
+
+	- __Linux__ or __Mac__: 
+	```bash
+	conda create --name drlnd python=3.6
+	source activate drlnd
+	```
+	- __Windows__: 
+	```bash
+	conda create --name drlnd python=3.6 
+	activate drlnd
+	```
+	
+2. You can clone the Udacity repository, and navigate to the `python/` folder.  Then, install several dependencies.
+```bash
+git clone https://github.com/udacity/deep-reinforcement-learning.git
+cd deep-reinforcement-learning/python
+pip install .
+```
+
+3. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+```bash
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
+
+4. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+
+![Kernel][image2]
+
+
 ### We are going to use DDPG - Deep Deterministic Policy Gradient to solve this task.
 
 In the **ddpq_agent.py** there is a standard implementation of a DDPG algorithm using two neural net (actor, critic). 
