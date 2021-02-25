@@ -5,6 +5,7 @@
 For this project, we will work with the Reacher environment.
 
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
+![Trained Agent][image1]
 
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
@@ -64,7 +65,7 @@ I have used these version of the reacher.app
 
 
 
-# We are going to use DDPG - Deep Deterministic Policy Gradient to solve this task.
+### We are going to use DDPG - Deep Deterministic Policy Gradient to solve this task.
 
 In the **ddpq_agent.py** there is a standard implementation of a DDPG algorithm using two neural net (actor, critic). 
 The **model.py** is a "standard" MLP representing our two neural nets. These two files are used in the **Continous_Control.ipynb**
