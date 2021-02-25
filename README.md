@@ -1,9 +1,10 @@
 # RL-Unity-MLAgents-Python-Pytorch-Reacher.app
 
-# The Environment
+### The Environment
 
 For this project, we will work with the Reacher environment.
 
+[image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
 
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
@@ -19,15 +20,15 @@ We consider the environment to be solved if the agents get an average score of +
 
 As an example, consider the plot below, where we have plotted the average score (over all 20 agents) obtained with each episode.
 
-# Real-World Robotics
+### Real-World Robotics
 
 Watch this [YouTube video](https://www.youtube.com/watch?v=ZVIxt2rt1_4) to see how some researchers were able to train a similar task on a real robot! The accompanying research paper can be found [here](https://arxiv.org/pdf/1803.07067.pdf).
 
-# Sharing Experience
+### Sharing Experience
 
 In the second version of the project environment, there are 20 identical copies of the agent. It has been shown that having multiple copies of the same agent sharing experience can accelerate learning, and you'll discover this for yourself when solving the project!
 
-# Setting up the environment
+### Setting up the environment
 
 I would recommend to choose a fresh environmnet from the current ML-Agent github repo. 
 It is a bit more work at the begining, since you have to compile it for your system and you also need to install Unity. 
@@ -48,6 +49,19 @@ https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
 We have our Actor - Critic DDPG model in the **model.py** file.
 And the DDPG algorithm that uses the model in the **ddpg_agent.py** file.
 The connection between unity and the model is in the **Continous_Control.ipynb**
+
+I have used these version of the reacher.app
+
+ - **Download the right version:**
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+    
+    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+
+3. Place the file in this GitHub repository and unzip (or decompress) the file. Then rename the folder to `Reacher`. (Now `Reacher/Reacher.exe` should exist.)
+
 
 
 # We are going to use DDPG - Deep Deterministic Policy Gradient to solve this task.
