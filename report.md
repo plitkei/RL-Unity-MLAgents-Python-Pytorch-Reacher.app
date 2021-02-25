@@ -30,7 +30,7 @@ I have also reduced the number of updates per time step. Instead of updating the
 
 ### The training result
 
-![result](https://github.com/plitkei/RL-Unity-MLAgents-Python-Pytorch-Banana.app/blob/main/result.jpg)
+![result](https://github.com/plitkei/RL-Unity-MLAgents-Python-Pytorch-reacher.app/blob/main/result.jpg)
 
 ### Future improvements
 
