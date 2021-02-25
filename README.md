@@ -3,7 +3,7 @@
 ### The Environment
 
 For this project, we will work with the Reacher environment.
-
+[image2]: https://user-images.githubusercontent.com/10624937/42386929-76f671f0-8106-11e8-9376-f17da2ae852e.png "Kernel"
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
 ![Trained Agent][image1]
 
